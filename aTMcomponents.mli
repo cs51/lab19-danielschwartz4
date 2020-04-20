@@ -23,7 +23,7 @@ type action =
   | Next              (* finish this customer and move on to the next one *)
   | Finished          (* shut down the ATM and exit entirely *)
 ;; 
-
+ 
 (*....................................................................
  Initializing database of accounts
 *)

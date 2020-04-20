@@ -22,7 +22,7 @@ let atm (initial : ATM.account_spec list) : unit =
      name and balance *)
   ATM.initialize initial;
 
-  try 
+  try  
     (* process customers until finished *)
     while true do
 
